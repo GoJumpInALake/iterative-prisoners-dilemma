@@ -37,7 +37,7 @@ def play_round(player1, player2, history1, history2, score1, score2):
     PUNISHMENT = -250 # (P) when both players betray each other
     # Keep T > R > P > S to be a Prisoner's Dilemma
     # Keep 2R > T + S to be an Iterative Prisoner's Dilemma
-    
+    '''This is a comment. I was told to write a comment here'''
     #Get the two players' actions and remember them.
     action1 = get_action(player1, history1, history2, score1, score2)
     action2 = get_action(player2, history2, history1, score2, score1)
